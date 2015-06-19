@@ -2,24 +2,19 @@
   <nav>
     <div class="nav-wrapper">
       <div class="container">
-        <a class="brand-logo" href="{{pathFor 'home'}}">Project Title</a>
-
-        <ul class="right">
-          <li><a class="dropdown-button" href="#!" data-activates="user-dropdown"><i class="mdi-navigation-more-vert"></i></a></li>
-        </ul>
+        <a class="brand-logo" href="{{pathFor 'home'}}">Build My College Fund</a>
 
         <ul class="right hide-on-med-and-down">
-          <li class="{{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}" title="Home"><i class="mdi-action-home"></i></a></li>
-          <li class="{{ isActiveRoute regex='dashboard' }}"><a href="{{ pathFor 'dashboard' }}" title="Dashboard"><i class="mdi-action-dashboard"></i></a></li>
+          <li class="{{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}" title="Home">Home</a></li>
+          <li class="{{ isActiveRoute regex='contactUs' }}"><a href="{{ pathFor 'home' }}" title="Contact Us">Contact Us</a></li>
+          <li><a class="dropdown-button" href="#!" data-hover="true" data-activates="user-dropdown">Learn More</a></li>
         </ul>
 
         <ul id="user-dropdown" class="dropdown-content">
-          {{#if currentUser}}
-            <li><a href="#" data-action="logout"><i class="mdi-action-lock"></i> Sign Out</a></li>
-          {{else}}
-            <li><a href="{{ pathFor 'atSignIn' }}">Sign in</a></li>
-            <li><a href="{{ pathFor 'atSignUp' }}">Register</a></li>
-          {{/if}}
+          <li><a href="{{ pathFor 'IsA529PlanForMe' }}">Is a 529 Plan for Me?</a></li>
+          <li><a href="{{ pathFor 'findMy529Plan' }}">Find My 529 Plan</a></li>
+          <li><a href="{{ pathFor 'findMy529Plan' }}">The Cost of Waiting</a></li>
+          <li><a href="{{ pathFor 'findMy529Plan' }}">Local Resources</a></li>
         </ul>
 
         <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
@@ -27,9 +22,9 @@
     </div>
   </nav>
 
-  <ul id="nav-mobile" class="side-nav">
+  <!-- <ul id="nav-mobile" class="side-nav">
     <li class="bold {{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}" title="Home"><i class="mdi-action-home"></i> Home</a></li>
     <li class="bold {{ isActiveRoute regex='dashboard' }}"><a href="{{ pathFor 'dashboard' }}" title="Dashboard"><i class="mdi-action-dashboard"></i> Dashboard</a></li>
-  </ul>
+  </ul> -->
 
 </template>

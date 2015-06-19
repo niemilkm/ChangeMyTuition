@@ -1,0 +1,10 @@
+
+.sideNav {
+  position: relative;
+  color: #fff;
+  background-color: #ee6e73;
+  width: 100%;
+  height: 100%;
+  line-height: 56px;
+  overflow: hidden;
+}

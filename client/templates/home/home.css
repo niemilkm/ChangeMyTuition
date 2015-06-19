@@ -1,0 +1,36 @@
+
+
+.headerPicGarbage {
+
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: url(/images/piggyBook.jpg) no-repeat center center;
+  /*background-color: #DD5A2B;*/
+}
+
+.headerPic {
+  padding-top: 3px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 550px;
+	color: #f8f8f8;
+	background: url(/images/piggyBook2.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.stretchPic1 {
+  padding-top: 3px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 250px;
+	color: #f8f8f8;
+	background: url(/images/biggerPiggy.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.btnVertAlign {
+  vertical-align: center;
+}
+
+.padRight {
+  padding-right: 500px;
+}

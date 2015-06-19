@@ -4,6 +4,7 @@
 
 nav {
   margin-bottom: 24px;
+  background-color: #26a69a;
 }
 
 ul.side-nav li a {
@@ -14,4 +15,12 @@ ul.side-nav li a {
 
 ul.side-nav li {
   float: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+footer.page-footer {
+  background-color: #26a69a;
 }
